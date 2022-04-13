@@ -24,6 +24,7 @@ sudo apt-get -y install git
 ## How to set up a workspace
 
 1. Create the `src` directory and clone repositories into it.
+
    ```bash
    cd sample_diff_drive
    mkdir src
@@ -42,5 +43,3 @@ sudo apt-get -y install git
    ```bash
    colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
    ```
-
-

@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       - name: Run pre-commit
-        uses: actions/pre-commit@v1
+        uses: pre-commit/actions@v2.0.3
         with:
           pre-commit-config: .pre-commit-config-optional.yaml
