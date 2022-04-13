@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Run pre-commit
-        uses: team-tier4-FT22/sample-diff-drive-github-actions/pre-commit@v1
+        uses: pre-commit/action@v2.0.3
         with:
           pre-commit-config: .pre-commit-config.yaml
