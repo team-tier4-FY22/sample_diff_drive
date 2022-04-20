@@ -93,7 +93,7 @@ repositories:
   #   type: git
   #   url: https://github.com/tier4/pacmod_interface.git
   #   version: main
-  vehicle/pacmod_interface:
+  vehicle/jw_interface:
     type: git
     url: https://github.com/tier4/jw_interface.git
     version: main
