@@ -72,27 +72,27 @@ repositories:
     url: https://github.com/tier4/velodyne_vls.git
     version: tier4/universe
   # sensor_kit
-  # sensor_kit/sample_sensor_kit_launch:
-  #   type: git
-  #   url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-  #   version: main
+  sensor_kit/sample_sensor_kit_launch:
+    type: git
+    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
+    version: main
   sensor_kit/sample_diff_drive_sensor_kit_launch:
     type: git
     url: https://github.com/team-tier4-FY22/sample_diff_drive_sensor_kit_launch.git
     version: main
   # vehicle
-  # vehicle/sample_vehicle_launch:
-  #   type: git
-  #   url: https://github.com/autowarefoundation/sample_vehicle_launch.git
-  #   version: main
+  vehicle/sample_vehicle_launch:
+    type: git
+    url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+    version: main
   vehicle/sample_diff_drive_launch:
     type: git
     url: https://github.com/team-tier4-FY22/sample_diff_drive_launch
     version: main
-  # vehicle/pacmod_interface:
-  #   type: git
-  #   url: https://github.com/tier4/pacmod_interface.git
-  #   version: main
+  vehicle/pacmod_interface:
+    type: git
+    url: https://github.com/tier4/pacmod_interface.git
+    version: main
   vehicle/jw_interface:
     type: git
     url: https://github.com/tier4/jw_interface.git
